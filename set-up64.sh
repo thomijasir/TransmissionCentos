@@ -21,5 +21,5 @@ chmod 777 /var/www/html/9009 -R
 cd
 chown -R transmission.transmission /var/www/html/9009
 chown -R transmission.transmission /var/www/html/9009/files
-service transmission-daemon reload
+service transmission-daemon restart
 service httpd restart
